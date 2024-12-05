@@ -310,7 +310,7 @@ def get_page():
             UI.models,
             UI.date_range,
             UI.station,
-            UI.metric,
+            #UI.metric,
             UI.quantile,
             UI.window,
             UI.apply,
