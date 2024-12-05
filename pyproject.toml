@@ -16,6 +16,7 @@ panel = "*"
 pyextremes = "*"
 seastats = {git = "https://github.com/oceanmodeling/seastats.git"}
 universal-pathlib = "*"
+watchfiles = "*"
 
 [build-system]
 requires = ["poetry-core"]

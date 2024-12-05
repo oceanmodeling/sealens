@@ -19,4 +19,11 @@ deps:
 	pre-commit run poetry-export -a
 
 serve:
-	python -mpanel serve app*.py --dev --address=127.0.0.1 --port=5009 --allow-websocket-origin=127.0.0.1:5009 --log-level debug
+	python -mpanel \
+		serve app*.py \
+		--dev \
+		--address=127.0.0.1 \
+		--port=5009 \
+		--allow-websocket-origin=localhost:5009 \
+		--allow-websocket-origin=127.0.0.1:5009 \
+		--log-level debug
