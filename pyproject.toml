@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "sealens"
+version = "0.1.0"
+description = ""
+authors = ["Panos Mavrogiorgos <pmav99@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+colorcet = "*"
+holoviews = "*"
+hvplot = "*"
+natsort = "*"
+pandas = "*"
+panel = "*"
+pyextremes = "*"
+seastats = {git = "https://github.com/oceanmodeling/seastats.git"}
+universal-pathlib = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+target-version = "py310"
+line-length = 108
